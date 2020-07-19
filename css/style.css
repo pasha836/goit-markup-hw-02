@@ -426,6 +426,11 @@ p {
   color: var(--white-color);
   background: var(--accent-color);
 }
+.portfolio-galery ul {
+  list-style: none;
+  list-style-type: none;
+}
+
 .porfolio-galery a {
   text-decoration: none;
 }
@@ -435,8 +440,8 @@ p {
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
-  list-style-type: none;
   letter-spacing: 0.06em;
+  color: var(--dark-color);
 }
 .portfolio-galery p {
   font-family: Roboto;
@@ -444,7 +449,6 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
-  text-decoration: none;
-
+  color: var(--main-color);
   letter-spacing: 0.03em;
 }
