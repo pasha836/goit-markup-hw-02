@@ -9,93 +9,105 @@
   </head>
   <body>
     <!-- Шапка сайта -->
-    <header class="page-header">
-     <div class="container">
+    <header>
+     <div class="container page-header">
         <nav class="navigation">
           <a class="logo link" href="./index.html"><span>Web </span>Studio</a>
           <ul class="list menu-list">
-            <li class="menu-item"><a href="./index.html" class="menu-link link">Студия</a></li>
-            <li class="menu-item"><a href="./portfolio.html" class="menu-link link">Портфолио</a></li>
-            <li class="menu-item"><a href="" class="menu-link link">Контакты</a></li>
+            <li class="menu-item"><a href="./index.html" class="menu-link">Студия</a></li>
+            <li class="menu-item"><a href="./portfolio.html" class="menu-link">Портфолио</a></li>
+            <li class="menu-item"><a href="" class="menu-link">Контакты</a></li>
           </ul>
         </nav>
-        <a href="tel:+380961111111" class="header-contacts-tel link">
-          <img src="./images/smartphone-logo.svg" alt="smartphone-logo" />
-          +38 096 111 111
-        </a>
-        <a href="mailto:info@devstudio.com" class="header-contacts-mail link">&#9993 info@devstudio.com
-        </a>
-        
+        <div class="header-contacts">
+          <ul class="contact-list list">
+            <li class="header-contacts-item">
+              <a href="tel:+380961111111" class="link contact-link">
+              <img src="./images/smartphone-logo.svg" alt="smartphone-logo" />
+              +38 096 111 111
+              </a>
+            </li>
+            <li class="header-contacts-item">
+              <a href="mailto:info@devstudio.com" class="link contact-link">&#9993 info@devstudio.com
+              </a>
+            </li>
+          </ul>
+        </div>
      </div>
     </header>
     <main>
       <!-- Герой-->
       <section class="section-hero">
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <div class="hero-btn"><button class="btn">Заказать услугу</button></div>
-      </section>
+        <div class="hero-block">
+          <div class="hero-title">
+            <h1>Эффективные решения для вашего бизнеса</h1>
+          </div>
+          <div class="hero-btn"><button class="btn">Заказать услугу</button></div>
+        </div>
+      </section> 
+      
       <!-- Преимущества -->
       <section class="section-advantages">
-       <div class="container">
+        <div class="container block-advantages">
           <h2 style="height: 0; overflow: hidden;">Advantages</h2>
           <ul class="list our-advantages">
-            <li>
+            <li class="our-advantages-item">
               <div class="advantages-pictupes"><img src="./images/antenna.jpg" alt="antenna" /></div>
-              <h3>Внимание к деталям</h3>
-              <p>
+              <h3 class="our-advantages-titles">Внимание к деталям</h3>
+              <p class="our-advantages-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="our-advantages-item">
               <div class="advantages-pictupes"><img src="./images/clock.jpg" alt="clock" /></div>
-              <h3>Пунктуальность</h3>
-              <p>
+              <h3 class="our-advantages-titles">Пунктуальность</h3>
+              <p class="our-advantages-text">
                 Задача организации, в особенности же рамки и место обучения кадров
                 влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="our-advantages-item">
               <div class="advantages-pictupes"><img src="./images/diagram.jpg" alt="diagram" /></div>
-              <h3>Планирование</h3>
-              <p>
+              <h3 class="our-advantages-titles">Планирование</h3>
+              <p class="our-advantages-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="our-advantages-item">
               <div class="advantages-pictupes"><img src="./images/astronaut.jpg" alt="astronaut" /></div>
-              <h3>Современные технологии</h3>
-              <p>
+              <h3 class="our-advantages-titles">Современные технологии</h3>
+              <p class="our-advantages-text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
             </li>
           </ul>
-       </div>
+        </div>
       </section>
       <!--Чем мы занимаемся-->
       <section class="section-we-doing">
         <div class="container">
           <h2>Чем мы занимаемся</h2>
-          <ul class="list">
-            <li>
+          <ul class="list we-doing-list">
+            <li class="we-doing-item">
               <a href="">
                 <img src="./images/Doing1.jpg" alt="Лучшие десктопные придожеия" height="294" />
-                <h3>Десктопные приложения</h3>
+                <h3 class="we-doing-title">Десктопные приложения</h3>
               </a>
             </li>
-            <li>
+            <li class="we-doing-item">
               <a href="">
                 <img src="./images/Doing2.jpg" alt="Самые быстрые мобильные
                         приложения" height="294" />
-                <h3>Мобильные приложения</h3>
+                <h3 class="we-doing-title">Мобильные приложения</h3>
               </a>
             </li>
-            <li>
+            <li class="we-doing-item">
               <a href="">
                 <img src="./images/Doing3.jpg" alt="Креативные дизайны" height="294" />
-                <h3>Дизайнерские решения</h3>
+                <h3 class="we-doing-title">Дизайнерские решения</h3>
               </a>
             </li>
           </ul>
@@ -226,7 +238,7 @@
     </main>
     <!-- Футер -->
     <footer class="page-footer">
-      <div class="container">
+      <div class="container block-footer">
         <a href="./index.html" class="footer-logo"><span>Web </span>Studio</a>
         <ul class="list footer-adress-link">
           <li>
