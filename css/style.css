@@ -4,24 +4,6 @@
   --dark-color: #212121;
   --white-color: #ffffff;
 }
-/* roboto-regular - latin */
-/*@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  src: url("./fonts/roboto-v20-latin-500.woff2") format("woff2"),
-    /* Super Modern Browsers */ /*url("./fonts/roboto-v20-latin-500.woff")
-      format("woff");*/
-}
-/* raleway-regular - latin */
-/*@font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  src: url("./fonts/raleway-v17-latin-700.woff2") format("woff2"),
-    /* Super Modern Browsers */ /*url("./fonts/raleway-v17-latin-700.woff")
-      format("woff");
-}*/
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -38,7 +20,6 @@
 *:after {
   box-sizing: border-box;
   margin: 0;
-  /* outline: 1px solid #666;*/
 }
 
 ul {
