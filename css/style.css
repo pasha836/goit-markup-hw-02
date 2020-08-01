@@ -5,23 +5,23 @@
   --white-color: #ffffff;
 }
 /* roboto-regular - latin */
-@font-face {
+/*@font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   src: url("./fonts/roboto-v20-latin-500.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("./fonts/roboto-v20-latin-500.woff")
-      format("woff");
+    /* Super Modern Browsers */ /*url("./fonts/roboto-v20-latin-500.woff")
+      format("woff");*/
 }
 /* raleway-regular - latin */
-@font-face {
+/*@font-face {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   src: url("./fonts/raleway-v17-latin-700.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("./fonts/raleway-v17-latin-700.woff")
+    /* Super Modern Browsers */ /*url("./fonts/raleway-v17-latin-700.woff")
       format("woff");
-}
+}*/
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -375,8 +375,8 @@ h2 {
   width: calc((100% - 30px * 5) / 6);
   height: 90px;
   margin-right: 30px;
-  border: solid 1px var(--main-color);
-  border-radius: 5px;
+ border: 1px solid #AFB1B8;
+  border-radius: 4px;
 }
 .regular-customers-item:last-child {
   margin-right: 0;
